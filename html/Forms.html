@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>JS Bin</title>
+</head>
+<body>
+<form action="/">
+  <table align = "center" width="500">
+    <caption style ="color:coral; border-style: solid; border-width: 5px;">
+      <h1><i>Formulario de registro</i></h1>
+    </caption>
+    <tr>
+      <td>User name</td>
+      <td>
+        <input type="text" name ="txtName" placeholder ="max 10 chars Only" autofocus required maxlength="10" size="20" pattern="[A-Z]">
+      </td>
+      
+    </tr>
+    <tr>
+      <td>Password</td>
+      <td>
+        <input type="password" name = "password"
+         placeholder="password should be 4 to 15 characters" required pattern = "[a-z A-Z 0-9]"      >
+      </td>
+    </tr>
+    <tr>
+      <td>Age</td>
+      <td>
+        <input type="number" name = "txtAge" min= "15" max="50" value ="2">
+      </td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td>
+        <input type="email" name:"txtEmail">
+      </td>
+    </tr>
+    <tr>
+      <td>Favorite color</td>
+      <td>
+        <input type="color" name= "txtColor">
+      </td>
+    </tr>
+    <tr>
+      <td>Favorite Cricketer name</td>
+      <td>
+        <input type="text" list = "players">
+        <datalist id="players">
+          <option>Sachin</option>
+          <option>Dhoni</option>
+          <option>Dravid</option>
+          <option>Saurav</option>
+        </datalist>
+      </td>
+    </tr>
+    <tr>
+      <td>Price</td>
+      <td>
+        <input type="range" name ="txtPrice">
+      </td>
+    </tr>
+    <tr>
+      <td>Upload photo</td>
+      <td>
+        <input type="file" name="txtFile">
+      </td>
+    </tr>
+    <tr>
+      <td colspan ="2" align = "center">
+        <input type="submit" value="Register">
+      </td>
+      
+    </tr>
+  </table>
+</form>
+</body>
+</html>
