@@ -1,0 +1,27 @@
+#fisrt{
+  color: yellow;
+  background-color: coral;
+  border-style: solid;
+  border-width:thick;
+  
+}
+
+#opi{
+  color:coral;
+  background-color:lightblue;
+  border-style: solid;
+  border-width:thick;
+  margin: 35px;
+  display: flex;
+  justify-content: center;
+}
+#opo{
+  background-color:lightgreen;
+  font-family: Consolas, Monospace;
+  color: blue;
+  border-style: solid;
+  border-width: thick;
+  margin : 35px;
+  display: flex;
+  justify-content: center;
+}
